@@ -1,0 +1,27 @@
+Push_swap 42
+
+##Pseudo code
+//Declare Pointer to data structures A and B
+	//Set pointer to NULL
+
+//Handel argument vector validity; not less than 2, argv[2] must not be empty
+	//if not respected return error
+
+//Hendel input type; multiple command arguments or string
+	//if string, use split.
+
+//Init stack a; assign each input argument to A stack nodes
+	//Handel int overflow, double, syntax error
+		//if error, free A and return error
+	//Check is all inputs are long int
+		//If string convert to long int
+	//Fill A stack
+
+//Check if A stack is sorted
+	// If not sorted, use a sorting algo
+		//If 2 arguments
+			//if so, rotate
+		//If 3 arguments
+			//if so,  Tiny sort
+		//If more than 3
+			//if so, implement sorting algo 
